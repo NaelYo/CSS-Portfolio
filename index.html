@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Animate -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Script -->
+    <link rel="script" href="script/jquery-3.7.1.min.js">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="icon" href="img/logo.png">
+    <title>Nathanael - Web Developer</title>
+</head>
+<body>
+    <header>
+        <nav class="animate__animated animate__fadeInDownBig animate__slow">
+            <div class="menu">
+            <input type="checkbox" id="check">
+            <div class="logo"><p><a href="">N<span style="color: #444;">athanael.</span></a></p></div>
+            <ul>
+                <label class="button close" for="check"><i data-feather="x"></i></label>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <label class="button bars" for="check"><i data-feather="menu"></i></label>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Jumbotron -->
+        <div class="container">
+            <div class="jumbotron">
+                <div class="jumbo-desc animate__animated animate__fadeInLeft">
+                    <p class="p1">Halo guys 🖐️, saya</p>
+                    <h1>Nathanael Christian Siboro</h1>
+                    <p class="p2">Junior Web Developer</p> 
+                    <p class="p3 text first-text">Ngoding bisa menambahkan vitamin D loh, <span class="text sec-text"><a href="https://dev.to/destructor1702/dealing-with-depression-as-programmers-1f87" target="_blank">Depresi😭</a></span></p>
+                        <div class="medsos">
+                            <span><a href="https://www.instagram.com/naelcristian31/" target="_blank"><i data-feather="instagram"></i></a></span>
+                            <span><a href="https://www.linkedin.com/in/nathanael-christian-siboro-636331283/" target="_blank"><i data-feather="linkedin"></i></a></i></span>
+                            <span><a href="https://web.facebook.com/nael.cristian.12" target="_blank"><i data-feather="facebook"></i></a></i></span>
+                            <span><a href="https://github.com/NaelYo" target="_blank"><i data-feather="github"></i></a></i></span>
+                            <span><a href="https://www.youtube.com/channel/UC-BujEvH7Fe7oZOosPmuOPQ" target="_blank"><i data-feather="youtube"></i></a></i></span>
+                        </div>
+                </div>
+                <div class="jumbo-img animate__animated animate__fadeIn animate__delay-1s">
+                    <img src="img/me1.jpg" alt="Nathanael">
+                </div>
+            </div>
+
+            <!-- About -->
+            <div id="about" class="about">
+                <div data-aos="fade-left" data-aos-duration="1000" class="about-judul">
+                    <h1>About me</h1>
+                </div>
+
+                <div class="about-content">
+                    <div data-aos="fade-right" data-aos-duration="2000" class="about-img">
+                        <img src="img/me2.jpg" alt="">
+                    </div>
+                    <div data-aos="fade-down" data-aos-duration="1500" class="about-desc">
+                        <p>Saya orang yang aktif dan memiliki keingintahuan tinggi, mampu memecahkan masalah, aktif dalam bekerja sama dan memberikan pendapat dalam tim, seorang yang pekerja keras, dan memiliki keingintahuan yang tinggi di bidang teknologi, seperti teknologi AI dan Internet. </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project -->
+            <div id="project" class="project">
+                <div data-aos="fade-right" data-aos-duration="1000" class="project-judul">
+                    <h1>My Project</h1>
+                </div>
+
+                <div class="card-container">
+                    <div class="card" data-aos="zoom-in" data-aos-delay="200" style="transition: 0.5s;">
+                        <div class="imgBg">
+                            <img src="img/project/pr-1.png" alt="">
+                        </div>
+                        <div class="card-desc">
+                            <h2>1st Portfolio Web</h2>
+                            <p>Ini adalah website portfolio pertama saya yang saya buat dengan menggunakan Bootstrap 5, Jquery, dan Wave.io. Referensi desain web ini terinspirasi oleh Pak Dhika (Web Programming UNPAS).</p>
+                            <a href="">View More</a>
+                        </div>
+                    </div>
+
+                    <div class="card" data-aos="zoom-in" data-aos-delay="400" style="transition: 0.5s;">
+                        <div class="imgBg">
+                            <img src="img/project/pr-2.png" alt="">
+                        </div>
+                        <div class="card-desc">
+                            <h2>E-commerce Web Menyala</h2>
+                            <p>Website ini adalah web ecommerce sederhana yang saya buat menggunakan HTML, CSS, dan JavaScript. Referensi desain saya buat sendiri dengan tema produk korek api kayu, website ini merupakan tugas submission membuat web sederhana yang diselenggarakan oleh Dicoding.</p>
+                            <a href="">View More</a>
+                        </div>
+                    </div>
+
+                    <div class="card" data-aos="zoom-in" data-aos-delay="600" style="transition: 0.5s;">
+                        <div class="imgBg">
+                            <img src="img/project/pr-3.png" alt="">
+                        </div>
+                        <div class="card-desc">
+                            <h2>Article Website</h2>
+                            <p>Website ini adalah project pertama saya dengan tema website artikel sederhana menggunakan HTML dan CSS. Referensi website ini dari episode Ngobar Pak Dhika (Web Programming UNPAS).</p>
+                            <a href="">View More</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script>feather.replace();</script>
+    <script src="script/script.js"></script>
+</body>
+</html>
