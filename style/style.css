@@ -762,18 +762,18 @@ footer{
     .jumbotron {
         display: flex;
         flex-direction: column;
-        margin-top: 8rem;
+        margin-top: 5rem;
     }
 
     .jumbo-img {
         order: -1;
-        width: 380px;
-        height: 380px;
+        width: 360px;
+        height: 360px;
         margin-left: 1px;
     }
 
     .jumbo-img img {
-        width: 380px;
+        width: 360px;
         margin-left: -0.2rem;
         margin-bottom: -1rem;
     }
@@ -821,7 +821,7 @@ footer{
     }
 
     .card-container .card {
-        width: 370px;
+        width: 355px;
         margin-left: -10px;
     }
 
@@ -830,7 +830,7 @@ footer{
     }
 
     .card-container .card .imgBg {
-        width: 340px;
+        width: 325px;
     }
 
     .card-container .card-desc {
