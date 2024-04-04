@@ -767,15 +767,14 @@ footer{
 
     .jumbo-img {
         order: -1;
-        width: 360px;
-        height: 360px;
+        width: 330px;
+        height: 330px;
         margin-left: 1px;
     }
 
     .jumbo-img img {
-        width: 360px;
-        margin-left: -0.2rem;
-        margin-bottom: -1rem;
+        width: 330px;
+        margin-left: -0.2rem;;
     }
 
     .jumbo-desc {
@@ -805,13 +804,15 @@ footer{
 
     .about-img {
         order: -1;
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
+        margin-left: -5px;
     }
 
     .about-img img {
         transform: scale(1.2);
-        margin-left: -1.1rem;
+        margin-top: -1rem;
+        margin-left: -2rem;
     }
 
     /* Project */
@@ -821,7 +822,7 @@ footer{
     }
 
     .card-container .card {
-        width: 355px;
+        width: 340px;
         margin-left: -10px;
     }
 
@@ -830,7 +831,11 @@ footer{
     }
 
     .card-container .card .imgBg {
-        width: 325px;
+        width: 300px;
+    }
+
+    .card-container .card .imgBg img {
+        object-fit: cover;
     }
 
     .card-container .card-desc {
