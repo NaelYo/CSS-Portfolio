@@ -699,6 +699,11 @@ footer{
         overflow-x: hidden;
     }
 
+    body {
+        overflow-x: hidden;
+        position: relative
+    }
+
     /* Header Navbar */
     header nav .menu ul {
         display: block;
