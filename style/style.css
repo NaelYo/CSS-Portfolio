@@ -694,7 +694,10 @@ footer{
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
+    html {
+        overflow-x: hidden;
+    }
 
     /* Header Navbar */
     header nav .menu ul {
