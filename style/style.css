@@ -112,6 +112,7 @@ header nav label.cancel {
     top: 25px;
     right: 30px;
     display: none;
+    color: var(---secondary-color);
 }
 
 header nav label.bars {
@@ -735,10 +736,16 @@ footer{
         height: 100%;
         max-width: 400px;
         padding-top: 45px;
-        background-color: #F5F6F6;
+        background-color: var(---primary-color);
         box-shadow: 5px 0 5px #666;
         z-index: 12;
         transition: all 0.3s ease;
+    }
+
+    header .sticky {
+       bottom: 0; 
+       background: var(---primary-color);
+       backdrop-filter: blur(0);
     }
 
     header nav .menu .logo a {
@@ -762,6 +769,7 @@ footer{
     header nav label.bars {
         display: block;
         margin-right: 10px;
+        color: var(---secondary-color);
     }
 
     #check:checked~label.bars {
@@ -889,6 +897,10 @@ footer{
         justify-content: center;
         padding-top: 8rem;
     }
+
+    .contact-judul h1{
+        font-size: 35px;
+    }   
 
 
     
