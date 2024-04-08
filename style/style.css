@@ -374,7 +374,8 @@ header nav label.bars {
 }
 
 .card-container .card:hover {
-    height: 465px;
+    height: 460px;
+    cursor: pointer;
 }
 
 .card-container .card .imgBg {
@@ -469,7 +470,7 @@ header nav label.bars {
     background: rgba(136, 136, 136, 0);
     backdrop-filter: blur(10px);
     box-shadow: 0 3px 10px black;
-    border: 3px solid #222;
+    border: 3px solid var(---secondary-color);
     margin: 0 15px;
     padding: 8px 40px;
     border-radius: 20px;
@@ -515,12 +516,12 @@ header nav label.bars {
 }
 
 .skill-per.javascript {
-    width: 58%;
+    width: 40%;
     animation-delay: 0.2s;
 }
 
 .skill-per.bootstrap {
-    width: 32%;
+    width: 28%;
     animation-delay: 0.3s;
 }
 
@@ -826,6 +827,8 @@ footer{
         order: -2;
         align-self: flex-start;
         text-align: left;
+        columns: 1;
+        margin-right: 32rem;
     }
 
     .about-img {
@@ -853,7 +856,7 @@ footer{
     }
 
     .card-container .card:hover {
-        height: 500px;
+        height: 520px;
     }
 
     .card-container .card .imgBg {
