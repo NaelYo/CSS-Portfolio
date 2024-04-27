@@ -794,13 +794,10 @@ footer{
 /* Tablet */
 /* Mobile */
 @media screen and (max-width: 478px) {
-    html {
-        overflow-x: hidden;
-    }
 
     body {
-        overflow-x: hidden;
-        position: relative
+        overflow: hidden;
+        position: relative;
     }
 
     /* Header Navbar */
@@ -809,7 +806,7 @@ footer{
         position: fixed;
         top: 0;
         left: 100%;
-        width: 100%;
+        width: 70%;
         height: 100vh;
         padding-top: 45px;
         background-color: var(---primary-color);
@@ -890,7 +887,9 @@ footer{
 
     /* About */
     .about {
-        padding-left: 0;
+        padding: 8rem 0 0 0;
+        align-items: flex-start;
+        width: 330px;
         display: flex;
     }
 
@@ -927,6 +926,7 @@ footer{
     .project {
         display: flex;
         padding: 0;
+        margin-top: 5rem;
     }
 
     .card-container .card {
