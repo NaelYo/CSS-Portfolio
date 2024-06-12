@@ -1,7 +1,7 @@
 # Hi, this my main portfolio 📃
 
 ### 💻 Preview :
-<img src="https://pin.it/1AA9sx539">
+![alt text](https://github.com/NaelYo/Portfolio/blob/main/img/preview.png?raw=true)
 
 ### 💻 Tech Stack :
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Animate CSS](https://img.shields.io/badge/Animate.css-wheat?style=for-the-badge&logoColor=white)
