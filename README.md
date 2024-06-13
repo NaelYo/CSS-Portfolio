@@ -8,4 +8,7 @@
 <br>
 ![CSS](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![AOS](https://img.shields.io/badge/AOS-lightblue?style=for-the-badge&logoColor=white)
 <br>
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white) ![Jquery](https://img.shields.io/badge/jquery-%230769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white)
+
+
+
