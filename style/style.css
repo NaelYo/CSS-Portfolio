@@ -224,8 +224,8 @@ header nav label.bars {
     outline: none;
     position: relative;
     padding: 10px;
-    }
-  
+}
+
 .jumbotron button::before {
     content: '';
     border-radius: 1000px;
@@ -239,20 +239,23 @@ header nav label.bars {
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: all .3s ease-in-out 0s;
-  }
-  
-  .button:hover, .button:focus {
+}
+
+.button:hover,
+.button:focus {
     color: white;
     transform: translateY(-6px);
-  }
-  
-  button:hover::before, button:focus::before {
+}
+
+button:hover::before,
+button:focus::before {
     opacity: 1;
-  }
-  
-  button::after {
+}
+
+button::after {
     content: '';
-    width: 30px; height: 30px;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
     border: 6px solid var(---secondary-color);
     position: absolute;
@@ -261,25 +264,27 @@ header nav label.bars {
     left: 50%;
     transform: translate(-50%, -50%);
     animation: ring 2s infinite;
-  }
-  
-  button:hover::after, button:focus::after {
+}
+
+button:hover::after,
+button:focus::after {
     animation: none;
     display: none;
-  }
-  
-  @keyframes ring {
+}
+
+@keyframes ring {
     0% {
-      width: 30px;
-      height: 30px;
-      opacity: 1;
+        width: 30px;
+        height: 30px;
+        opacity: 1;
     }
+
     100% {
-      width: 300px;
-      height: 300px;
-      opacity: 0;
+        width: 300px;
+        height: 300px;
+        opacity: 0;
     }
-  }
+}
 
 .jumbo-desc span {
     font-weight: bold;
@@ -608,8 +613,8 @@ header nav label.bars {
 .contact .contact-logo a {
     text-decoration: none;
     font-size: 36px;
-    background: rgb(0,0,0);
-    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 10%, rgba(102,102,102,1) 50%, rgba(136,136,136,1) 73%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(34, 34, 34, 1) 10%, rgba(102, 102, 102, 1) 50%, rgba(136, 136, 136, 1) 73%);
     border-radius: 50%;
     padding: 5px 12px;
     color: #fff;
@@ -640,14 +645,14 @@ header nav label.bars {
     text-decoration: none;
     color: var(---secondary-color);
     transition: all 0.6s ease;
-    padding: 10px;  
+    padding: 10px;
 }
 
 .contact .contact-medsos a:hover {
     transform: scale(1.2) rotate(360deg);
 }
 
-footer{
+footer {
     margin-top: auto;
     bottom: 0;
     left: 0;
@@ -660,7 +665,7 @@ footer{
     color: #fff;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -668,7 +673,7 @@ footer{
     text-align: center;
 }
 
-.footer-content h3{
+.footer-content h3 {
     font-size: 2rem;
     font-weight: bold;
     text-transform: capitalize;
@@ -683,7 +688,7 @@ footer{
     font-size: 14px;
 }
 
-.socials{
+.socials {
     list-style: none;
     display: flex;
     align-items: center;
@@ -691,37 +696,39 @@ footer{
     margin: 1rem 0 3rem 0;
 }
 
-.socials li{
+.socials li {
     margin: 0 10px;
 }
 
-.socials a{
+.socials a {
     text-decoration: none;
     color: var(---primary-color);
 }
 
-.socials a i{
+.socials a i {
     font-size: 1.1rem;
     transition: color .4s ease;
 
 }
 
-.socials a:hover i{
+.socials a:hover i {
     color: #999;
 }
 
-.footer-bottom{
+.footer-bottom {
     background: #000;
     width: 100vw;
     padding: 20px 0;
     text-align: center;
 }
-.footer-bottom p{
+
+.footer-bottom p {
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
 }
-.footer-bottom span{
+
+.footer-bottom span {
     opacity: .8;
     font-weight: 200;
 }
@@ -833,7 +840,8 @@ footer{
 
     .jumbo-img img {
         width: 330px;
-        margin-left: -0.2rem;;
+        margin-left: -0.2rem;
+        ;
     }
 
     .jumbo-desc {
@@ -921,10 +929,17 @@ footer{
     }
 
     .skill-container {
+        padding: 0;
+        display: flex;
         top: 0;
         left: 0;
         margin-top: -6rem;
-        margin-left: -0.8px;
+        margin-left: 6px;
+        justify-content: space-around;
+    }
+
+    .skill-container i {
+        transform: scale(3);
     }
 
     /* Contact */
@@ -936,7 +951,7 @@ footer{
         padding-top: 8rem;
     }
 
-    .contact-judul h1{
+    .contact-judul h1 {
         font-size: 35px;
-    }   
+    }
 }
