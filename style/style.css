@@ -544,24 +544,46 @@ button:focus::after {
 
 .skill-container {
     position: relative;
-    max-width: 700px;
-    width: 100%;
-    height: 10rem;
+    min-width: 70%;
+    min-height: 100%;
     background: rgba(136, 136, 136, 0);
     backdrop-filter: blur(10px);
     box-shadow: 0 3px 5px black;
     border: 3px solid var(---secondary-color);
-    margin: 0 15px;
-    padding: 8px 40px;
+    padding: 8px 30px;
     border-radius: 20px;
     top: -5rem;
-    left: -15rem;
+    left: -11.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+}
+
+.skill-container .row1 {
+    margin-right: -6rem;
+}
+
+.skill-container .row2 {
+    margin-right: -2.5rem;
+    margin-top: -1rem;
+}
+
+.skill-container .row2 svg {
+    width: 80px;
+    height: 84px;
+    margin-bottom: -2rem;
+    margin-left: -1.5rem;
+}
+
+.skill-container .row2 svg:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #38B2AC;
 }
 
 .skill-container i {
+    margin: 0 8rem 0 0;
     cursor: pointer;
     transform: scale(5);
     color: var(---secondary-color);
@@ -590,6 +612,21 @@ button:focus::after {
 #logo-bootstrap:hover {
     transition: 0.3s;
     color: #7C4DFF;
+}
+
+#logo-laravel:hover {
+    transition: 0.3s;
+    color: #F23B2F;
+}
+
+#logo-react:hover {
+    transition: 0.3s;
+    color: #58C4DC;
+}
+
+#logo-node:hover {
+    transition: 0.3s;
+    color: #6DA55F;
 }
 
 /* Contact */
@@ -930,16 +967,37 @@ footer {
 
     .skill-container {
         padding: 0;
+        min-width: 100%;
+        min-height: 60%;
+        margin-bottom: 5rem;
         display: flex;
         top: 0;
         left: 0;
         margin-top: -6rem;
         margin-left: 6px;
         justify-content: space-around;
+        flex-direction: column;
     }
 
     .skill-container i {
         transform: scale(3);
+        margin: 0 2.5rem 0 0;
+    }
+
+    .skill-container .row1 {
+        margin-right: -2.5rem;
+    }
+    
+    .skill-container .row2 {
+        margin-right: -1.8rem;
+        margin-top: -2.5rem;
+    }
+
+    .skill-container .row2 svg {
+        width: 50px;
+        height: 54px;
+        margin-bottom: -1.2rem;
+        margin-left: -1rem;
     }
 
     /* Contact */
